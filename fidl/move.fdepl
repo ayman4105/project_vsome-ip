@@ -1,0 +1,32 @@
+import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
+import "move.fidl"
+
+define org.genivi.commonapi.someip.deployment for interface ayman.examples.SendFile {
+    SomeIpServiceID = 4666
+
+    method RequestDownloadFile {
+        SomeIpMethodID = 0x0001
+        SomeIpReliable = false
+    }
+
+    method RequestData {
+        SomeIpMethodID = 0x0002
+        SomeIpReliable = false
+    }
+
+    broadcast NewDataAvailable {
+        SomeIpEventID = 8001
+        SomeIpEventGroups = { 8000 }
+        SomeIpReliable = false
+    }
+}
+
+define org.genivi.commonapi.someip.deployment for provider as Service {
+    instance ayman.examples.SendFile {
+        InstanceId = "ayman.examples.SendFile"
+        SomeIpInstanceID = 22138
+        SomeIpUnicastAddress = "127.0.0.1"
+        SomeIpReliableUnicastPort = 30499
+        SomeIpUnreliableUnicastPort = 30500
+    }
+}

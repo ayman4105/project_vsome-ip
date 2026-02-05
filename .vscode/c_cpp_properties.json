@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/fidl/src-gen",
+                "${workspaceFolder}/fidl/src-gen/v1",
+                "${workspaceFolder}/fidl/src-gen/v1/ayman/examples",
+                "${workspaceFolder}/Src",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/local/include/CommonAPI-3.2"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

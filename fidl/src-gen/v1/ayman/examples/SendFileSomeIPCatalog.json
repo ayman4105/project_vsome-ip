@@ -1,0 +1,8 @@
+{
+    "ayman.examples.SendFile" : {
+        "service_id": 4666,
+        "instances" : {
+            "ayman.examples.SendFile": 22138
+        }
+    }
+}

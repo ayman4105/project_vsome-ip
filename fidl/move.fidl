@@ -1,0 +1,37 @@
+package ayman.examples
+
+interface SendFile {
+    version {major 1 minor 0}
+
+    method RequestDownloadFile {
+        in{
+            UInt32 DataVersion
+            UInt64 ClientTimestamp
+        }
+        out {
+            Boolean accepted
+            UInt64 totalBytes
+            UInt32 chunkSize
+            UInt64 ServerTimestamp
+        }
+    }
+
+    method RequestData {
+        in {
+            UInt32 chunkIndex
+            UInt32 DataVersion
+
+        }
+        out {
+            String data
+            Boolean isLastChunk
+            UInt32 chunkIndex
+        }
+    }
+    broadcast  NewDataAvailable {
+        out {
+            UInt32 DataVersion
+            UInt64 Timestamp
+        }
+    }
+}

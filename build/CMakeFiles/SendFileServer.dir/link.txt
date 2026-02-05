@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/SendFileServer.dir/Src/Server.cpp.o -o SendFileServer  -Wl,-rpath,/home/ayman/ITI/fady/project_vsome-ip/build:/usr/local/lib libSendFile-someip.so /usr/local/lib/libCommonAPI-SomeIP.so.3.2.4 /usr/local/lib/libCommonAPI.so.3.2.4 /usr/local/lib/libvsomeip3.so.3.5.5 

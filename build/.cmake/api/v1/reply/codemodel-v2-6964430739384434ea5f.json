@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SendFile_CommonAPI_Demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SendFile-someip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SendFile-someip-Debug-29a0c9ac4ee087a3f1dd.json",
+					"name" : "SendFile-someip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SendFileClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SendFileClient-Debug-db4bd793b8d26397d40e.json",
+					"name" : "SendFileClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SendFileServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SendFileServer-Debug-56db73a82bcc34826030.json",
+					"name" : "SendFileServer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ayman/ITI/fady/project_vsome-ip/build",
+		"source" : "/home/ayman/ITI/fady/project_vsome-ip"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
