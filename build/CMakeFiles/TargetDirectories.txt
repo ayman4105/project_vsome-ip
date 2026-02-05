@@ -1,5 +1,0 @@
-/home/ayman/ITI/fady/project_vsome-ip/build/CMakeFiles/SendFile-someip.dir
-/home/ayman/ITI/fady/project_vsome-ip/build/CMakeFiles/SendFileServer.dir
-/home/ayman/ITI/fady/project_vsome-ip/build/CMakeFiles/SendFileClient.dir
-/home/ayman/ITI/fady/project_vsome-ip/build/CMakeFiles/edit_cache.dir
-/home/ayman/ITI/fady/project_vsome-ip/build/CMakeFiles/rebuild_cache.dir
